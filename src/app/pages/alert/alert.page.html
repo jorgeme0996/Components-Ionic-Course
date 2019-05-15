@@ -1,5 +1,11 @@
-<app-header titulo="alert page"></app-header>
+<app-header [titulo]="headerTxt || 'Alert Page'"></app-header>
 
 <ion-content padding>
+ <ion-button (click)="presentAlert()" expand="full" color="primary">
+    Mostrar Alerta
+ </ion-button>
 
+    <ion-button (click)="presentAlertPrompt()" expand="full" color="secondary">
+        Cambiar Header
+    </ion-button>
 </ion-content>

@@ -14,6 +14,9 @@ const routes: Routes = [
   { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
   { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
   { path: 'infinite-srcoll', loadChildren: './pages/infinite-srcoll/infinite-srcoll.module#InfiniteSrcollPageModule' },
+  { path: 'input', loadChildren: './pages/input/input.module#InputPageModule' },
+  { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
+  { path: 'list-reorder', loadChildren: './pages/list-reorder/list-reorder.module#ListReorderPageModule' },
 ];
 
 @NgModule({

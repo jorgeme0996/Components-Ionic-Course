@@ -14,7 +14,7 @@ export class InfiniteSrcollPage implements OnInit {
   ngOnInit() {
   }
 
-  loadData(event) {
+  loadData(event) {3
     console.log('Cargando siguientes');
 
     setTimeout(()=>{

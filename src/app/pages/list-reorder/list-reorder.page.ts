@@ -14,4 +14,12 @@ export class ListReorderPage implements OnInit {
   ngOnInit() {
   }
 
+  reorder(event) {
+    console.log(event);
+    const itemMover = this.personajes.splice(event.detail.from, 1)[0];
+    this.personajes.splice(event.detail.to, 0, itemMover);
+    event.detail.complete();
+    console.log(this.personajes);
+  }
+
 }

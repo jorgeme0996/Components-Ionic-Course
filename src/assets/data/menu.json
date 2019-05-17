@@ -47,7 +47,7 @@
     {
         "icon": "infinite",
         "name": "Infinite Scroll",
-        "redirectTo": "/infinite-scroll"
+        "redirectTo": "/infinite-srcoll"
     },
     {
         "icon": "hammer",
@@ -73,6 +73,21 @@
         "icon": "phone-portrait",
         "name": "Modal",
         "redirectTo": "/modal"
+    },
+    {
+        "icon": "tablet-portrait",
+        "name": "Popover",
+        "redirectTo": "/popover"
+    },
+    {
+        "icon": "code-working",
+        "name": "Progress Bar y Range",
+        "redirectTo": "/progress-bar"
+    },
+    {
+        "icon": "search",
+        "name": "Search Bar",
+        "redirectTo": "/search-bar"
     }
 ]
   
